@@ -1,33 +1,6 @@
 # vtv
 Only VTV here :)
-
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>IPTV Player</title>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; }
-        header { background: #ffcc00; padding: 15px; text-align: center; font-size: 22px; font-weight: bold; }
-        .container { display: flex; height: calc(100vh - 60px); }
-        .channels { width: 300px; background: #fff; padding: 15px; overflow-y: auto; border-right: 1px solid #ddd; }
-        .channel { cursor: pointer; display: flex; align-items: center; gap: 15px; padding: 10px; margin-bottom: 10px;
-                   background: #fafafa; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: 0.3s; }
-        .channel:hover { background: #ffe066; transform: scale(1.03); }
-        .channel img { width: 50px; height: 50px; object-fit: contain; border-radius: 8px; }
-        .channel .name { font-size: 16px; font-weight: bold; color: #333; }
-        .player { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
-        .player h2 { margin-bottom: 15px; color: #222; }
-        video { width: 100%; max-width: 900px; height: auto; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); background: black; }
-    </style>
-</head>
-<body>
-    <header>📺 IPTV Player</header>
-    <div class="container">
-        <div class="channels">
-            <h3>Danh sách kênh</h3>
-            
+My code VTV is here :) 👇
     <div class="channel" onclick="playChannel('https://freem3u.xyz/api/live/play.m3u8?fl=096fde45d23058e1d425115031d70f79d45b36f6d121613a5957e5fa500c4e797fd2228e59c3d61cc8197666d929d09b056442af8c3df87f7b0fe091329cb60f91', 'VTV1 HD')">
         <div class="logo"><img src="https://xem.hoiquan.click/Logo/vtv1-hd/KenhCoBan" alt="VTV1 HD"></div>
         <div class="name">VTV1 HD</div>
